@@ -1,0 +1,23 @@
+.whiteHover:hover {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #F8F9FA;
+}
+
+.fa-square {
+  padding-top: 2px;
+  font-size: 35px;
+  color: black;
+}
+
+.fa-linkedin-square {
+  color: purple;
+}
