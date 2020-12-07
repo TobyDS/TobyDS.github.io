@@ -1,23 +1,32 @@
 .whiteHover:hover {
-  color: white !important;
-  opacity: 1 !important;
+    color: white !important;
+    opacity: 1 !important;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #F8F9FA;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
 }
 
 .fa-square {
-  padding-top: 2px;
-  font-size: 35px;
-  color: black;
+    padding-top: 2px;
+    font-size: 35px;
+    color: black;
 }
 
 .fa-linkedin-square {
-  color: purple;
+    color: purple;
+}
+
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
 }

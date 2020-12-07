@@ -28,13 +28,20 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./mypage_bootstrap.html">About Me<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./mypage_bootstrap.html">About Me<span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./form.html">Form</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./signup-modal/login.html">Sign Up Modal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tic-tac-toe/tic-tac-toe.html">Tick Tack Toe Game</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
@@ -66,31 +73,38 @@
             <button type="button" class="btn btn-info font-weight-bold rounded-pill">Add interest</button>
         </div>
         <div class="card-deck">
-            <div class="card bg-light">
+            <div class="card bg-light" id="interest1">
                 <img src="./img/appDesign.jpg" alt="Phone" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Web and App development</h5>
                     <p class="card-text">I love developing apps and making websites! I love making them look good.</p>
+                    <button type="button" onclick="addCard('interest1')"
+                        class="btn btn-primary btn-circle btn-sm mb-3"><i class="fa fa-plus fa-lg text-white"
+                            aria-hidden="true"></i></button>
                 </div>
             </div>
-            <div class="card bg-light">
+            <div class="card bg-light" id="interest2">
                 <img src="./img/hacking.jpg" alt="Computer Motherboard" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Ethical Hacking</h5>
                     <p class="card-text">Hacking is super cool! Make sure you have permission before you try and hack
                         someone.</p>
+                    <button type="button" onclick="addCard('interest2')" class="btn btn-primary btn-circle btn-sm"><i
+                            class="fa fa-plus fa-lg text-white" aria-hidden="true"></i></button>
                 </div>
             </div>
-            <div class="card bg-light">
+            <div class="card bg-light" id="interest3">
                 <img src="./img/music.jpg" alt="Synthwave" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Music</h5>
                     <p class="card-text">Music is great. It helps me relax.</p>
+                    <button type="button" onclick="addCard('interest3')" class="btn btn-primary btn-circle btn-sm"><i
+                            class="fa fa-plus fa-lg text-white" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer border">
+    <div class="footer border mt-5">
         <footer class="py-4 text-white-50">
             <div class="container">
                 <a href="https://www.linkedin.com/in/toby-dixon-smith-4734331a3">
@@ -108,6 +122,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="manage-cards.js"></script>
 </body>
 
 </html>
